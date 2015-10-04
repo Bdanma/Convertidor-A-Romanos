@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+
+	<body>
+		<div class="jumbotron">
+			<div align=center>
+				<h1>Convertidor</h1>
+				<img src="img/romanos.jpg">
+			</div>
+			
+			<h2>¿Necesitas un poco de ayuda con los números romanos?</h2>
+
+			<div align=center>
+
+			</div>
+
+			<h3>A veces los números romanos pueden provocar diferentes confusiones al momento de convertirlos desde nuestros arábigos. Con este convertidor puedes saber como se representa un número "normal" con numeros romanos. Adelante intenta.</h3>
+		</div>
+
+		<div align=center id="inicio">
+			<button class="btn btn-success btn-sm" id="empezar">Comenzar</button>
+			<button class="btn btn-danger btn-sm" id="finalizar">Finalizar</button>
+		</div>
+
+		<div id="todo">
+			<div align=center id="form">
+				<form class="form-horizontal">
+					<label class="label label-default" id="label">Ingresa el número que deseas convertir</label>
+					<h1></h1>
+					<div class="col-sm-2">
+						<label class="label label-default" id="label">miles</label>
+						<select class="form-control" id="mil">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+					</div>
+
+					<div class="col-sm-2">
+						<label class="label label-default" id="label">centenas</label>
+						<select class="form-control" id="centena">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</select>
+					</div>
+
+					<div class="col-sm-2">
+						<label class="label label-default" id="label">decenas</label>
+						<select class="form-control" id="decena">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</select>
+					</div>
+
+					<div class="col-sm-2">
+						<label class="label label-default" id="label">unidades</label>
+						<select class="form-control" id="unidad">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+						</select>
+					</div>
+					
+				<button class="btn btn-info btn-lg">Convertir</button>
+
+				</form>
+			</div>
+
+			<div id="tabla">
+				<table class="table table-striped table-hover" >
+					<thead>
+						<tr>
+							<th>Numero arabigo</th>
+							<th>Numero Romano</th>
+						</tr>
+					</thead>
+
+					<tbody id="resultados">
+
+					</tbody>
+				</table>
+
+				<div align=center>
+					<button class="btn btn-info btn-lg" id="borrar">Borrar resultados</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="scripts/jquery-1.11.3.js"></script>
+		<script src="scripts/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+#inicio {
+	margin-bottom: 100px;
+}
+
+
+#entrada {
+	margin-bottom: 10px;
+}
+
+#label {
+	font-size: 20px;
+}
+
+th {
+	font-size: 30px;
+	text-align: center;
+}
+
+img {
+	width: 80%;
+	height: 40px;
+}
+
+td {
+	text-align: center;
+	font-size: 20px;
+}
+
+#form {
+	margin-bottom: 120px;
+}
+
+#todo {
+	display: none;
+}
+
+#tabla {
+	display: none;
+}

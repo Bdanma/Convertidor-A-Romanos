@@ -27,7 +27,7 @@ td {
 }
 
 #form {
-	margin-bottom: 120px;
+	margin-bottom: 50px;
 }
 
 #todo {
@@ -36,4 +36,8 @@ td {
 
 #tabla {
 	display: none;
+}
+
+#label {
+	margin-bottom: 10px;
 }
